@@ -1,0 +1,123 @@
+body{
+    margin: 0.5em;
+    padding: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container-1{
+    border: 1px solid yellow;
+    height: 400px;
+    background-color: red;
+    color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-2{
+    border: 1px solid yellow;
+    height: 400px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-3{
+    border: 1px solid yellow;
+    height: 300px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-4{
+    border: 1px solid yellow;
+    height: 1000px;
+    background-color: red;
+    color: white;
+    text-align: right;
+}
+.name{
+    text-align: center;
+}
+.Place1{
+    margin-top:100px ;
+    margin-left: 20px;
+}
+.Place2{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.Place3{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.content-1{
+    width: 50%;
+    float: left;
+}
+.content-2{
+    width: 50%;
+    float: right;
+}
+.content-3{
+    width: 50%;
+    float: left;
+}
+.title{
+    text-align: center;
+}
+.name{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.profile{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    border-radius: 1em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+@media screen and (min-width: 768px){
+    .name{
+        float: left;
+        margin-left: 70px;
+    }
+    .profile{
+        margin-right: 200px;
+        float: right;
+        text-align: center;
+    }
+    .History{
+        display: flex;
+
+    }
+    .City{
+        text-align: center;
+        margin-top: 50px;
+        display: flex;
+        
+    }
+    .container-1{
+        flex-direction: column;
+    }
+    .container-2{
+        flex-direction: column;
+    }
+    .container-4{
+        height: 400px;
+    }
+    .Place1{
+        margin-left: 10px;
+    }
+}
+    
