@@ -5,8 +5,8 @@ body{
 
 }
 .container-1{
-    border: 1px solid yellow;
     height: 400px;
+    border: 1px solid yellow;
     background-color: red;
     color: white;
     align-items: center;
@@ -16,7 +16,6 @@ body{
 
 .container-2{
     border: 1px solid yellow;
-    height: 400px;
     background-color: red;
     color: white;
     text-align: center;
@@ -26,7 +25,6 @@ body{
 
 .container-3{
     border: 1px solid yellow;
-    height: 300px;
     background-color: red;
     color: white;
     text-align: center;
@@ -36,37 +34,57 @@ body{
 
 .container-4{
     border: 1px solid yellow;
-    height: 1000px;
     background-color: red;
     color: white;
-    text-align: right;
+    text-align:center;
+    flex-direction: column;
 }
 .name{
     text-align: center;
 }
+.macya{
+    border: 3px solid lawngreen;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 1em;
+}
 .Place1{
-    margin-top:100px ;
-    margin-left: 20px;
+    border-radius: 1em;
+    float: right;
+    width: 150px;
+    height: 150px;
 }
 .Place2{
-    margin-top: 100px;
-    margin-left: 20px;
+    border-radius: 1em;
+    float: left;
+    width: 120px;
+    height: 100px;
 }
 .Place3{
-    margin-top: 100px;
-    margin-left: 20px;
+    border-radius: 1em;
+    float: right;
+    width: 150px;
+    height: 150px;
 }
 .content-1{
-    width: 50%;
-    float: left;
+    border-radius: 1em;
+    border: 1px solid lawngreen;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 1em;
 }
 .content-2{
-    width: 50%;
-    float: right;
+    border-radius: 1em;
+    border: 1px solid lawngreen;
+    padding: 0.5em;
+    margin: 0.5em;
 }
 .content-3{
-    width: 50%;
-    float: left;
+    border-radius: 1em;
+    border: 1px solid lawngreen;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 1em;
 }
 .title{
     text-align: center;
@@ -87,6 +105,8 @@ h2{
     justify-content: center;
     text-align: center;
 }
+
+
 @media screen and (min-width: 768px){
     .name{
         float: left;
@@ -105,7 +125,7 @@ h2{
         text-align: center;
         margin-top: 50px;
         display: flex;
-        
+        border-radius: 1em;
     }
     .container-1{
         flex-direction: column;
@@ -113,11 +133,10 @@ h2{
     .container-2{
         flex-direction: column;
     }
-    .container-4{
-        height: 400px;
-    }
-    .Place1{
-        margin-left: 10px;
-    }
+    
+    .Place2{
+    float: right;
+    padding-bottom: 10px;
 }
     
+}
