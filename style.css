@@ -56,11 +56,11 @@ text-align: left;
     justify-content: center;
 }
 table{
-    width: 100%;
+    width: 80%;
     border-collapse: collapse;
 }
 table, td, th{
-    border: 1px solid black;
+    border: 3px solid black;
     margin-top: 20px;
     text-align: center;
 }
@@ -89,18 +89,21 @@ table, td, th{
     float: right;
     width: 150px;
     height: 150px;
+    margin-left: 8px;
 }
 .Place2{
     border-radius: 1em;
     float: right;
     width: 150px;
     height: 150px;
+    margin-left: 8px;
 }
 .Place3{
     border-radius: 1em;
     float: right;
     width: 150px;
     height: 150px;
+    margin-left: 8px;
 }
 /* .content-1{
     border-radius: 1em;
